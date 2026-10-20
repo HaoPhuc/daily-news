@@ -48,7 +48,6 @@ feeds:
   # --- Physics simulation ---
   - {name: NVIDIA Technical Blog, sector: simulation, url: "https://developer.nvidia.com/blog/feed"}
   - {name: HPCwire, sector: simulation, url: "https://www.hpcwire.com/feed/"}
-  - {name: GN insideHPC, sector: simulation, query: 'site:insidehpc.com'}
   - {name: GN simulation software, sector: simulation, query: 'Ansys OR COMSOL OR "digital twin" OR "Omniverse" simulation'}
   - {name: GN ML surrogates, sector: simulation, query: '"surrogate model" OR "physics-informed" OR "neural operator" OR PhysicsNeMo OR "AI simulation"'}
 
