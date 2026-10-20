@@ -23,7 +23,7 @@ Report order and short tag names:
 - `tools/deck.py` — builds the slide-deck PDF from a deck JSON.
 - `stories/ongoing.md` — developing stories followed up every report.
 - `state/last_run.json` — where the last report's window ended.
-- `reports/YYYY/MM/` — archive: one `.md` and one `.deck.json` per report.
+- `reports/YYYY/MM/` — archive: for each report the slide-deck `.pdf` (easiest to read), the `.md` text version and the `.deck.json`.
 
 ## Every run: window
 Read `state/last_run.json`. The window runs from `cutoff_utc` to the moment this run starts (UTC, to the minute). If the file is missing or `cutoff_utc` is more than 3 days ago, use the last 24 hours (Sunday: 7 days) and say so in the report subtitle.
@@ -77,7 +77,7 @@ window: 2026-10-20T05:50Z -> 2026-10-21T05:50Z
 ## Sources
 ```
 
-Save the deck JSON next to it as `YYYY-MM-DD.deck.json` (Sunday: `YYYY-MM-DD-roundup.deck.json`).
+Save the deck JSON next to it as `YYYY-MM-DD.deck.json` and the built PDF as `YYYY-MM-DD.pdf` (Sunday: `YYYY-MM-DD-roundup.deck.json`, `YYYY-MM-DD-roundup.pdf`). Always commit the PDF: it is the readable version of the report.
 
 ## Decks
 Slide types and fields are in `tools/deck.py`: `statement`, `cards`, `table`, `bullets`, `sources` (the cover comes from `title`, `period`, `subtitle`, `topline`). Plain text only, "->" instead of arrow symbols, short text, one idea per slide. Build from the repo root:
