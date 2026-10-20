@@ -107,6 +107,7 @@ def main():
         if f.get("sector") not in SECTORS:
             sys.exit(f"unknown sector for {f['name']}: {f.get('sector')}")
 
+    junk = [re.compile(x, re.I) for x in cfg.get("exclude_titles") or []]
     now = datetime.now(timezone.utc)
     today = now.astimezone(AMS).date()
     FEED.mkdir(exist_ok=True)
@@ -148,6 +149,8 @@ def main():
                     source = pub
                     if title.endswith(" - " + pub):
                         title = title[: -len(pub) - 3].rstrip()
+            if any(j.search(title) for j in junk):
+                continue
             published = when(e)
             if published and now - published > MAX_AGE:
                 continue

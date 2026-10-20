@@ -59,7 +59,7 @@ def words(title):
     return {w for w in re.findall(r"[a-z0-9]+", title.lower()) if w not in STOP and len(w) > 2}
 
 
-def cluster(items, thr=0.5):
+def cluster(items, thr=0.3):
     groups = []
     for it in sorted(items, key=lambda x: x.get("published") or x["fetched"]):
         w = words(it["title"])
