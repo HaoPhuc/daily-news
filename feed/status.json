@@ -1,0 +1,404 @@
+{
+ "updated": "2026-10-20T22:35:16+00:00",
+ "feeds": {
+  "Fusion Industry Association": {
+   "sector": "fusion",
+   "url": "https://www.fusionindustryassociation.org/feed/",
+   "ok": true,
+   "entries": 10,
+   "new": 0,
+   "last_ok": "2026-10-20T22:35:16+00:00",
+   "fail_streak": 0
+  },
+  "EUROfusion": {
+   "sector": "fusion",
+   "url": "https://euro-fusion.org/feed/",
+   "ok": false,
+   "entries": 0,
+   "new": 0,
+   "last_ok": null,
+   "fail_streak": 1,
+   "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
+  },
+  "ITER": {
+   "sector": "fusion",
+   "url": "https://www.iter.org/rss.xml",
+   "ok": true,
+   "entries": 10,
+   "new": 0,
+   "last_ok": "2026-10-20T22:35:16+00:00",
+   "fail_streak": 0
+  },
+  "DIFFER": {
+   "sector": "fusion",
+   "url": "https://www.differ.nl/rss.xml",
+   "ok": true,
+   "entries": 3,
+   "new": 0,
+   "last_ok": "2026-10-20T22:35:16+00:00",
+   "fail_streak": 0
+  },
+  "phys.org plasma": {
+   "sector": "fusion",
+   "url": "https://phys.org/rss-feed/physics-news/plasma-physics/",
+   "ok": true,
+   "entries": 30,
+   "new": 16,
+   "last_ok": "2026-10-20T22:35:16+00:00",
+   "fail_streak": 0
+  },
+  "World Nuclear News": {
+   "sector": "fusion",
+   "url": "https://www.world-nuclear-news.org/rss",
+   "ok": true,
+   "entries": 49,
+   "new": 8,
+   "last_ok": "2026-10-20T22:35:16+00:00",
+   "fail_streak": 0
+  },
+  "GN fusion energy": {
+   "sector": "fusion",
+   "url": "https://news.google.com/rss/search?q=%22fusion+energy%22+OR+tokamak+OR+stellarator+OR+%22fusion+power%22+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
+   "ok": true,
+   "entries": 16,
+   "new": 16,
+   "last_ok": "2026-10-20T22:35:16+00:00",
+   "fail_streak": 0
+  },
+  "GN fusion companies": {
+   "sector": "fusion",
+   "url": "https://news.google.com/rss/search?q=%22Commonwealth+Fusion%22+OR+Helion+OR+%22Tokamak+Energy%22+OR+%22Proxima+Fusion%22+OR+%22General+Fusion%22+OR+%22TAE+Technologies%22+OR+ITER+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
+   "ok": true,
+   "entries": 29,
+   "new": 23,
+   "last_ok": "2026-10-20T22:35:16+00:00",
+   "fail_streak": 0
+  },
+  "Bits&Chips": {
+   "sector": "semis",
+   "url": "https://bits-chips.com/feed/",
+   "ok": true,
+   "entries": 10,
+   "new": 10,
+   "last_ok": "2026-10-20T22:35:16+00:00",
+   "fail_streak": 0
+  },
+  "Semiconductor Engineering": {
+   "sector": "semis",
+   "url": "https://semiengineering.com/feed/",
+   "ok": true,
+   "entries": 10,
+   "new": 8,
+   "last_ok": "2026-10-20T22:35:16+00:00",
+   "fail_streak": 0
+  },
+  "EE Times": {
+   "sector": "semis",
+   "url": "https://www.eetimes.com/feed/",
+   "ok": false,
+   "entries": 0,
+   "new": 0,
+   "last_ok": null,
+   "fail_streak": 1,
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  "Tom's Hardware EUV": {
+   "sector": "semis",
+   "url": "https://www.tomshardware.com/feeds/tag/euv",
+   "ok": true,
+   "entries": 50,
+   "new": 0,
+   "last_ok": "2026-10-20T22:35:16+00:00",
+   "fail_streak": 0
+  },
+  "GN ASML": {
+   "sector": "semis",
+   "url": "https://news.google.com/rss/search?q=ASML+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
+   "ok": true,
+   "entries": 92,
+   "new": 86,
+   "last_ok": "2026-10-20T22:35:16+00:00",
+   "fail_streak": 0
+  },
+  "GN chip export controls": {
+   "sector": "semis",
+   "url": "https://news.google.com/rss/search?q=chip+export+controls+OR+semiconductor+export+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
+   "ok": true,
+   "entries": 21,
+   "new": 21,
+   "last_ok": "2026-10-20T22:35:16+00:00",
+   "fail_streak": 0
+  },
+  "GN foundries": {
+   "sector": "semis",
+   "url": "https://news.google.com/rss/search?q=TSMC+OR+%22Intel+Foundry%22+OR+%22Samsung+Foundry%22+OR+%22High-NA%22+OR+EUV+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
+   "ok": true,
+   "entries": 100,
+   "new": 90,
+   "last_ok": "2026-10-20T22:35:16+00:00",
+   "fail_streak": 0
+  },
+  "GN Brainport (nl)": {
+   "sector": "semis",
+   "url": "https://news.google.com/rss/search?q=ASML+OR+Brainport+OR+NXP+OR+%22VDL%22+OR+Prodrive+when%3A2d&hl=nl&gl=NL&ceid=NL%3Anl",
+   "ok": true,
+   "entries": 48,
+   "new": 42,
+   "last_ok": "2026-10-20T22:35:16+00:00",
+   "fail_streak": 0
+  },
+  "Google DeepMind": {
+   "sector": "ai",
+   "url": "https://deepmind.google/blog/rss.xml",
+   "ok": true,
+   "entries": 100,
+   "new": 0,
+   "last_ok": "2026-10-20T22:35:16+00:00",
+   "fail_streak": 0
+  },
+  "OpenAI": {
+   "sector": "ai",
+   "url": "https://openai.com/news/rss.xml",
+   "ok": true,
+   "entries": 1302,
+   "new": 3,
+   "last_ok": "2026-10-20T22:35:16+00:00",
+   "fail_streak": 0
+  },
+  "Hugging Face blog": {
+   "sector": "ai",
+   "url": "https://huggingface.co/blog/feed.xml",
+   "ok": true,
+   "entries": 886,
+   "new": 7,
+   "last_ok": "2026-10-20T22:35:16+00:00",
+   "fail_streak": 0
+  },
+  "MIT Technology Review AI": {
+   "sector": "ai",
+   "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+   "ok": true,
+   "entries": 10,
+   "new": 6,
+   "last_ok": "2026-10-20T22:35:16+00:00",
+   "fail_streak": 0
+  },
+  "The Decoder": {
+   "sector": "ai",
+   "url": "https://the-decoder.com/feed/",
+   "ok": true,
+   "entries": 10,
+   "new": 10,
+   "last_ok": "2026-10-20T22:35:16+00:00",
+   "fail_streak": 0
+  },
+  "GN AI models": {
+   "sector": "ai",
+   "url": "https://news.google.com/rss/search?q=AI+model+launch+OR+%22new+model%22+OpenAI+OR+Anthropic+OR+Google+OR+DeepSeek+OR+Mistral+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
+   "ok": true,
+   "entries": 39,
+   "new": 39,
+   "last_ok": "2026-10-20T22:35:16+00:00",
+   "fail_streak": 0
+  },
+  "GN AI for science": {
+   "sector": "ai",
+   "url": "https://news.google.com/rss/search?q=%22AI+for+science%22+OR+%22machine+learning%22+physics+OR+%22AI%22+materials+discovery+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
+   "ok": true,
+   "entries": 11,
+   "new": 11,
+   "last_ok": "2026-10-20T22:35:16+00:00",
+   "fail_streak": 0
+  },
+  "NVIDIA Technical Blog": {
+   "sector": "simulation",
+   "url": "https://developer.nvidia.com/blog/feed",
+   "ok": true,
+   "entries": 100,
+   "new": 1,
+   "last_ok": "2026-10-20T22:35:16+00:00",
+   "fail_streak": 0
+  },
+  "HPCwire": {
+   "sector": "simulation",
+   "url": "https://www.hpcwire.com/feed/",
+   "ok": true,
+   "entries": 10,
+   "new": 10,
+   "last_ok": "2026-10-20T22:35:16+00:00",
+   "fail_streak": 0
+  },
+  "insideHPC": {
+   "sector": "simulation",
+   "url": "https://insidehpc.com/feed/",
+   "ok": false,
+   "entries": 0,
+   "new": 0,
+   "last_ok": null,
+   "fail_streak": 1,
+   "error": "URLError: <urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)>"
+  },
+  "GN simulation software": {
+   "sector": "simulation",
+   "url": "https://news.google.com/rss/search?q=Ansys+OR+COMSOL+OR+%22digital+twin%22+OR+%22Omniverse%22+simulation+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
+   "ok": true,
+   "entries": 19,
+   "new": 17,
+   "last_ok": "2026-10-20T22:35:16+00:00",
+   "fail_streak": 0
+  },
+  "GN ML surrogates": {
+   "sector": "simulation",
+   "url": "https://news.google.com/rss/search?q=%22surrogate+model%22+OR+%22physics-informed%22+OR+%22neural+operator%22+OR+PhysicsNeMo+OR+%22AI+simulation%22+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
+   "ok": true,
+   "entries": 8,
+   "new": 5,
+   "last_ok": "2026-10-20T22:35:16+00:00",
+   "fail_streak": 0
+  },
+  "IEEE Spectrum": {
+   "sector": "hardware",
+   "url": "https://spectrum.ieee.org/feeds/feed.rss",
+   "ok": true,
+   "entries": 30,
+   "new": 3,
+   "last_ok": "2026-10-20T22:35:16+00:00",
+   "fail_streak": 0
+  },
+  "GN lidar sensors": {
+   "sector": "hardware",
+   "url": "https://news.google.com/rss/search?q=lidar+OR+%22image+sensor%22+OR+%22MEMS+sensor%22+manufacturing+OR+production+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
+   "ok": true,
+   "entries": 18,
+   "new": 18,
+   "last_ok": "2026-10-20T22:35:16+00:00",
+   "fail_streak": 0
+  },
+  "GN actuators humanoid parts": {
+   "sector": "hardware",
+   "url": "https://news.google.com/rss/search?q=actuator+OR+%22harmonic+reducer%22+OR+%22roller+screw%22+humanoid+OR+robot+supply+chain+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
+   "ok": true,
+   "entries": 3,
+   "new": 3,
+   "last_ok": "2026-10-20T22:35:16+00:00",
+   "fail_streak": 0
+  },
+  "TechCrunch": {
+   "sector": "bigtech",
+   "url": "https://techcrunch.com/feed/",
+   "ok": true,
+   "entries": 20,
+   "new": 20,
+   "last_ok": "2026-10-20T22:35:16+00:00",
+   "fail_streak": 0
+  },
+  "The Verge": {
+   "sector": "bigtech",
+   "url": "https://www.theverge.com/rss/index.xml",
+   "ok": true,
+   "entries": 10,
+   "new": 10,
+   "last_ok": "2026-10-20T22:35:16+00:00",
+   "fail_streak": 0
+  },
+  "Ars Technica": {
+   "sector": "bigtech",
+   "url": "https://feeds.arstechnica.com/arstechnica/index",
+   "ok": true,
+   "entries": 20,
+   "new": 20,
+   "last_ok": "2026-10-20T22:35:16+00:00",
+   "fail_streak": 0
+  },
+  "GN big tech": {
+   "sector": "bigtech",
+   "url": "https://news.google.com/rss/search?q=Apple+OR+Microsoft+OR+Alphabet+OR+Amazon+OR+Meta+OR+Nvidia+earnings+OR+deal+OR+antitrust+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
+   "ok": true,
+   "entries": 100,
+   "new": 73,
+   "last_ok": "2026-10-20T22:35:16+00:00",
+   "fail_streak": 0
+  },
+  "The Robot Report": {
+   "sector": "robotics",
+   "url": "https://www.therobotreport.com/feed/",
+   "ok": true,
+   "entries": 15,
+   "new": 11,
+   "last_ok": "2026-10-20T22:35:16+00:00",
+   "fail_streak": 0
+  },
+  "IEEE Spectrum robotics": {
+   "sector": "robotics",
+   "url": "https://spectrum.ieee.org/feeds/topic/robotics.rss",
+   "ok": true,
+   "entries": 30,
+   "new": 0,
+   "last_ok": "2026-10-20T22:35:16+00:00",
+   "fail_streak": 0
+  },
+  "Robohub": {
+   "sector": "robotics",
+   "url": "https://robohub.org/feed/",
+   "ok": true,
+   "entries": 75,
+   "new": 1,
+   "last_ok": "2026-10-20T22:35:16+00:00",
+   "fail_streak": 0
+  },
+  "GN humanoids": {
+   "sector": "robotics",
+   "url": "https://news.google.com/rss/search?q=humanoid+robot+OR+%22Figure+AI%22+OR+%22Boston+Dynamics%22+OR+%221X%22+OR+Unitree+OR+Optimus+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
+   "ok": true,
+   "entries": 100,
+   "new": 95,
+   "last_ok": "2026-10-20T22:35:16+00:00",
+   "fail_streak": 0
+  },
+  "SpaceNews": {
+   "sector": "space",
+   "url": "https://spacenews.com/feed/",
+   "ok": true,
+   "entries": 11,
+   "new": 2,
+   "last_ok": "2026-10-20T22:35:16+00:00",
+   "fail_streak": 0
+  },
+  "NASASpaceflight": {
+   "sector": "space",
+   "url": "https://www.nasaspaceflight.com/feed/",
+   "ok": true,
+   "entries": 10,
+   "new": 5,
+   "last_ok": "2026-10-20T22:35:16+00:00",
+   "fail_streak": 0
+  },
+  "Spaceflight Now": {
+   "sector": "space",
+   "url": "https://spaceflightnow.com/feed/",
+   "ok": true,
+   "entries": 10,
+   "new": 2,
+   "last_ok": "2026-10-20T22:35:16+00:00",
+   "fail_streak": 0
+  },
+  "ESA": {
+   "sector": "space",
+   "url": "https://www.esa.int/rssfeed/Our_Activities/Space_News",
+   "ok": true,
+   "entries": 9,
+   "new": 2,
+   "last_ok": "2026-10-20T22:35:16+00:00",
+   "fail_streak": 0
+  },
+  "GN launches": {
+   "sector": "space",
+   "url": "https://news.google.com/rss/search?q=SpaceX+OR+Starship+OR+%22Blue+Origin%22+OR+%22New+Glenn%22+OR+Ariane+OR+ESA+launch+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
+   "ok": true,
+   "entries": 100,
+   "new": 85,
+   "last_ok": "2026-10-20T22:35:16+00:00",
+   "fail_streak": 0
+  }
+ }
+}
