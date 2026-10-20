@@ -1,0 +1,70 @@
+# Feeds pulled every 4 hours by .github/workflows/fetch.yml (tools/fetch_feeds.py).
+#
+# Each entry has a unique name, a sector, and either:
+#   url:   a direct RSS/Atom feed, or
+#   query: a Google News search (fetch_feeds.py adds "when:2d"); lang: en (default) or nl.
+#
+# Sectors (the order is the report order):
+#   fusion, semis, ai, simulation, hardware, bigtech, robotics, space
+# Feed health is in feed/status.json. AGENTS.md says when to fix or drop a feed.
+
+feeds:
+  # --- Fusion & plasma physics ---
+  - {name: Fusion Industry Association, sector: fusion, url: "https://www.fusionindustryassociation.org/feed/"}
+  - {name: EUROfusion, sector: fusion, url: "https://euro-fusion.org/feed/"}
+  - {name: ITER, sector: fusion, url: "https://www.iter.org/rss.xml"}
+  - {name: DIFFER, sector: fusion, url: "https://www.differ.nl/rss.xml"}
+  - {name: phys.org plasma, sector: fusion, url: "https://phys.org/rss-feed/physics-news/plasma-physics/"}
+  - {name: World Nuclear News, sector: fusion, url: "https://www.world-nuclear-news.org/rss"}
+  - {name: GN fusion energy, sector: fusion, query: '"fusion energy" OR tokamak OR stellarator OR "fusion power"'}
+  - {name: GN fusion companies, sector: fusion, query: '"Commonwealth Fusion" OR Helion OR "Tokamak Energy" OR "Proxima Fusion" OR "General Fusion" OR "TAE Technologies" OR ITER'}
+
+  # --- Semiconductors & lithography ---
+  - {name: Bits&Chips, sector: semis, url: "https://bits-chips.com/feed/"}
+  - {name: Semiconductor Engineering, sector: semis, url: "https://semiengineering.com/feed/"}
+  - {name: EE Times, sector: semis, url: "https://www.eetimes.com/feed/"}
+  - {name: Tom's Hardware EUV, sector: semis, url: "https://www.tomshardware.com/feeds/tag/euv"}
+  - {name: GN ASML, sector: semis, query: 'ASML'}
+  - {name: GN chip export controls, sector: semis, query: 'chip export controls OR semiconductor export'}
+  - {name: GN foundries, sector: semis, query: 'TSMC OR "Intel Foundry" OR "Samsung Foundry" OR "High-NA" OR EUV'}
+  - {name: GN Brainport (nl), sector: semis, lang: nl, query: 'ASML OR Brainport OR NXP OR "VDL" OR Prodrive'}
+
+  # --- AI / ML research ---
+  - {name: Google DeepMind, sector: ai, url: "https://deepmind.google/blog/rss.xml"}
+  - {name: OpenAI, sector: ai, url: "https://openai.com/news/rss.xml"}
+  - {name: Hugging Face blog, sector: ai, url: "https://huggingface.co/blog/feed.xml"}
+  - {name: MIT Technology Review AI, sector: ai, url: "https://www.technologyreview.com/topic/artificial-intelligence/feed"}
+  - {name: The Decoder, sector: ai, url: "https://the-decoder.com/feed/"}
+  - {name: GN AI models, sector: ai, query: 'AI model launch OR "new model" OpenAI OR Anthropic OR Google OR DeepSeek OR Mistral'}
+  - {name: GN AI for science, sector: ai, query: '"AI for science" OR "machine learning" physics OR "AI" materials discovery'}
+
+  # --- Physics simulation ---
+  - {name: NVIDIA Technical Blog, sector: simulation, url: "https://developer.nvidia.com/blog/feed"}
+  - {name: HPCwire, sector: simulation, url: "https://www.hpcwire.com/feed/"}
+  - {name: insideHPC, sector: simulation, url: "https://insidehpc.com/feed/"}
+  - {name: GN simulation software, sector: simulation, query: 'Ansys OR COMSOL OR "digital twin" OR "Omniverse" simulation'}
+  - {name: GN ML surrogates, sector: simulation, query: '"surrogate model" OR "physics-informed" OR "neural operator" OR PhysicsNeMo OR "AI simulation"'}
+
+  # --- Hardware manufacturing (lidar, sensors, actuators, humanoid parts) ---
+  - {name: IEEE Spectrum, sector: hardware, url: "https://spectrum.ieee.org/feeds/feed.rss"}
+  - {name: GN lidar sensors, sector: hardware, query: 'lidar OR "image sensor" OR "MEMS sensor" manufacturing OR production'}
+  - {name: GN actuators humanoid parts, sector: hardware, query: 'actuator OR "harmonic reducer" OR "roller screw" humanoid OR robot supply chain'}
+
+  # --- Big tech ---
+  - {name: TechCrunch, sector: bigtech, url: "https://techcrunch.com/feed/"}
+  - {name: The Verge, sector: bigtech, url: "https://www.theverge.com/rss/index.xml"}
+  - {name: Ars Technica, sector: bigtech, url: "https://feeds.arstechnica.com/arstechnica/index"}
+  - {name: GN big tech, sector: bigtech, query: 'Apple OR Microsoft OR Alphabet OR Amazon OR Meta OR Nvidia earnings OR deal OR antitrust'}
+
+  # --- Robotics ---
+  - {name: The Robot Report, sector: robotics, url: "https://www.therobotreport.com/feed/"}
+  - {name: IEEE Spectrum robotics, sector: robotics, url: "https://spectrum.ieee.org/feeds/topic/robotics.rss"}
+  - {name: Robohub, sector: robotics, url: "https://robohub.org/feed/"}
+  - {name: GN humanoids, sector: robotics, query: 'humanoid robot OR "Figure AI" OR "Boston Dynamics" OR "1X" OR Unitree OR Optimus'}
+
+  # --- Aerospace & space ---
+  - {name: SpaceNews, sector: space, url: "https://spacenews.com/feed/"}
+  - {name: NASASpaceflight, sector: space, url: "https://www.nasaspaceflight.com/feed/"}
+  - {name: Spaceflight Now, sector: space, url: "https://spaceflightnow.com/feed/"}
+  - {name: ESA, sector: space, url: "https://www.esa.int/rssfeed/Our_Activities/Space_News"}
+  - {name: GN launches, sector: space, query: 'SpaceX OR Starship OR "Blue Origin" OR "New Glenn" OR Ariane OR ESA launch'}
