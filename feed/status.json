@@ -1,24 +1,24 @@
 {
- "updated": "2026-11-17T23:29:51+00:00",
+ "updated": "2026-11-18T07:24:34+00:00",
  "feeds": {
   "Fusion Industry Association": {
    "sector": "fusion",
    "url": "https://www.fusionindustryassociation.org/feed/",
-   "ok": true,
-   "entries": 10,
+   "ok": false,
+   "entries": 0,
    "new": 0,
    "last_ok": "2026-11-17T23:29:51+00:00",
-   "fail_streak": 0
+   "fail_streak": 1,
+   "error": "HTTPError: HTTP Error 415: Unsupported Media Type"
   },
   "GN EUROfusion": {
    "sector": "fusion",
    "url": "https://news.google.com/rss/search?q=EUROfusion+OR+%22Wendelstein+7-X%22+OR+%22JT-60SA%22+OR+%22Max+Planck+Institute+for+Plasma+Physics%22+OR+DIFFER+fusion+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
-   "ok": false,
-   "entries": 0,
-   "new": 0,
-   "last_ok": "2026-11-17T13:20:47+00:00",
-   "fail_streak": 1,
-   "error": "HTTPError: HTTP Error 503: Service Unavailable"
+   "ok": true,
+   "entries": 11,
+   "new": 1,
+   "last_ok": "2026-11-18T07:24:34+00:00",
+   "fail_streak": 0
   },
   "ITER": {
    "sector": "fusion",
@@ -26,7 +26,7 @@
    "ok": true,
    "entries": 10,
    "new": 0,
-   "last_ok": "2026-11-17T23:29:51+00:00",
+   "last_ok": "2026-11-18T07:24:34+00:00",
    "fail_streak": 0
   },
   "DIFFER": {
@@ -34,8 +34,8 @@
    "url": "https://www.differ.nl/rss.xml",
    "ok": true,
    "entries": 3,
-   "new": 1,
-   "last_ok": "2026-11-17T23:29:51+00:00",
+   "new": 0,
+   "last_ok": "2026-11-18T07:24:34+00:00",
    "fail_streak": 0
   },
   "World Nuclear News": {
@@ -43,29 +43,27 @@
    "url": "https://www.world-nuclear-news.org/rss",
    "ok": true,
    "entries": 50,
-   "new": 6,
-   "last_ok": "2026-11-17T23:29:51+00:00",
+   "new": 0,
+   "last_ok": "2026-11-18T07:24:34+00:00",
    "fail_streak": 0
   },
   "GN fusion energy": {
    "sector": "fusion",
    "url": "https://news.google.com/rss/search?q=%22fusion+energy%22+OR+tokamak+OR+stellarator+OR+%22fusion+power%22+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
-   "ok": false,
-   "entries": 0,
-   "new": 0,
-   "last_ok": "2026-11-17T13:20:47+00:00",
-   "fail_streak": 1,
-   "error": "HTTPError: HTTP Error 503: Service Unavailable"
+   "ok": true,
+   "entries": 20,
+   "new": 2,
+   "last_ok": "2026-11-18T07:24:34+00:00",
+   "fail_streak": 0
   },
   "GN fusion companies": {
    "sector": "fusion",
    "url": "https://news.google.com/rss/search?q=%22Commonwealth+Fusion%22+OR+%22Helion+Energy%22+OR+%22Tokamak+Energy%22+OR+%22Proxima+Fusion%22+OR+%22General+Fusion%22+OR+%22TAE+Technologies%22+OR+ITER+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
-   "ok": false,
-   "entries": 0,
-   "new": 0,
-   "last_ok": "2026-11-17T13:20:47+00:00",
-   "fail_streak": 1,
-   "error": "HTTPError: HTTP Error 503: Service Unavailable"
+   "ok": true,
+   "entries": 25,
+   "new": 1,
+   "last_ok": "2026-11-18T07:24:34+00:00",
+   "fail_streak": 0
   },
   "Bits&Chips": {
    "sector": "semis",
@@ -73,7 +71,7 @@
    "ok": true,
    "entries": 10,
    "new": 0,
-   "last_ok": "2026-11-17T23:29:51+00:00",
+   "last_ok": "2026-11-18T07:24:34+00:00",
    "fail_streak": 0
   },
   "Semiconductor Engineering": {
@@ -81,19 +79,18 @@
    "url": "https://semiengineering.com/feed/",
    "ok": true,
    "entries": 10,
-   "new": 3,
-   "last_ok": "2026-11-17T23:29:51+00:00",
+   "new": 0,
+   "last_ok": "2026-11-18T07:24:34+00:00",
    "fail_streak": 0
   },
   "GN EE Times": {
    "sector": "semis",
    "url": "https://news.google.com/rss/search?q=site%3Aeetimes.com+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
-   "ok": false,
-   "entries": 0,
-   "new": 0,
-   "last_ok": "2026-11-17T13:20:47+00:00",
-   "fail_streak": 1,
-   "error": "HTTPError: HTTP Error 503: Service Unavailable"
+   "ok": true,
+   "entries": 13,
+   "new": 6,
+   "last_ok": "2026-11-18T07:24:34+00:00",
+   "fail_streak": 0
   },
   "Tom's Hardware EUV": {
    "sector": "semis",
@@ -101,48 +98,44 @@
    "ok": true,
    "entries": 50,
    "new": 0,
-   "last_ok": "2026-11-17T23:29:51+00:00",
+   "last_ok": "2026-11-18T07:24:34+00:00",
    "fail_streak": 0
   },
   "GN ASML": {
    "sector": "semis",
    "url": "https://news.google.com/rss/search?q=ASML+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
-   "ok": false,
-   "entries": 0,
-   "new": 0,
-   "last_ok": "2026-11-17T13:20:47+00:00",
-   "fail_streak": 1,
-   "error": "HTTPError: HTTP Error 503: Service Unavailable"
+   "ok": true,
+   "entries": 38,
+   "new": 10,
+   "last_ok": "2026-11-18T07:24:34+00:00",
+   "fail_streak": 0
   },
   "GN chip export controls": {
    "sector": "semis",
    "url": "https://news.google.com/rss/search?q=chip+export+controls+OR+semiconductor+export+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
-   "ok": false,
-   "entries": 0,
-   "new": 0,
-   "last_ok": "2026-11-17T13:20:47+00:00",
-   "fail_streak": 1,
-   "error": "HTTPError: HTTP Error 503: Service Unavailable"
+   "ok": true,
+   "entries": 100,
+   "new": 45,
+   "last_ok": "2026-11-18T07:24:34+00:00",
+   "fail_streak": 0
   },
   "GN foundries": {
    "sector": "semis",
    "url": "https://news.google.com/rss/search?q=TSMC+OR+%22Intel+Foundry%22+OR+%22Samsung+Foundry%22+OR+%22High-NA%22+OR+EUV+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
-   "ok": false,
-   "entries": 0,
-   "new": 0,
-   "last_ok": "2026-11-17T13:20:47+00:00",
-   "fail_streak": 1,
-   "error": "HTTPError: HTTP Error 503: Service Unavailable"
+   "ok": true,
+   "entries": 100,
+   "new": 37,
+   "last_ok": "2026-11-18T07:24:34+00:00",
+   "fail_streak": 0
   },
   "GN Brainport (nl)": {
    "sector": "semis",
    "url": "https://news.google.com/rss/search?q=ASML+OR+Brainport+OR+NXP+OR+%22VDL%22+OR+Prodrive+when%3A2d&hl=nl&gl=NL&ceid=NL%3Anl",
-   "ok": false,
-   "entries": 0,
-   "new": 0,
-   "last_ok": "2026-11-17T13:20:47+00:00",
-   "fail_streak": 1,
-   "error": "HTTPError: HTTP Error 503: Service Unavailable"
+   "ok": true,
+   "entries": 20,
+   "new": 9,
+   "last_ok": "2026-11-18T07:24:34+00:00",
+   "fail_streak": 0
   },
   "Google DeepMind": {
    "sector": "ai",
@@ -150,7 +143,7 @@
    "ok": true,
    "entries": 100,
    "new": 0,
-   "last_ok": "2026-11-17T23:29:51+00:00",
+   "last_ok": "2026-11-18T07:24:34+00:00",
    "fail_streak": 0
   },
   "OpenAI": {
@@ -158,8 +151,8 @@
    "url": "https://openai.com/news/rss.xml",
    "ok": true,
    "entries": 1406,
-   "new": 4,
-   "last_ok": "2026-11-17T23:29:51+00:00",
+   "new": 0,
+   "last_ok": "2026-11-18T07:24:34+00:00",
    "fail_streak": 0
   },
   "Hugging Face blog": {
@@ -168,7 +161,7 @@
    "ok": true,
    "entries": 908,
    "new": 0,
-   "last_ok": "2026-11-17T23:29:51+00:00",
+   "last_ok": "2026-11-18T07:24:34+00:00",
    "fail_streak": 0
   },
   "MIT Technology Review AI": {
@@ -176,8 +169,8 @@
    "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
    "ok": true,
    "entries": 10,
-   "new": 1,
-   "last_ok": "2026-11-17T23:29:51+00:00",
+   "new": 0,
+   "last_ok": "2026-11-18T07:24:34+00:00",
    "fail_streak": 0
   },
   "The Decoder": {
@@ -185,37 +178,35 @@
    "url": "https://the-decoder.com/feed/",
    "ok": true,
    "entries": 10,
-   "new": 7,
-   "last_ok": "2026-11-17T23:29:51+00:00",
+   "new": 0,
+   "last_ok": "2026-11-18T07:24:34+00:00",
    "fail_streak": 0
   },
   "GN AI models": {
    "sector": "ai",
    "url": "https://news.google.com/rss/search?q=AI+model+launch+OR+%22new+model%22+OpenAI+OR+Anthropic+OR+Google+OR+DeepSeek+OR+Mistral+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
-   "ok": false,
-   "entries": 0,
-   "new": 0,
-   "last_ok": "2026-11-17T13:20:47+00:00",
-   "fail_streak": 1,
-   "error": "HTTPError: HTTP Error 503: Service Unavailable"
+   "ok": true,
+   "entries": 26,
+   "new": 15,
+   "last_ok": "2026-11-18T07:24:34+00:00",
+   "fail_streak": 0
   },
   "GN AI for science": {
    "sector": "ai",
    "url": "https://news.google.com/rss/search?q=%22AI+for+science%22+OR+%22machine+learning%22+physics+OR+%22AI%22+materials+discovery+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
-   "ok": false,
-   "entries": 0,
-   "new": 0,
-   "last_ok": "2026-11-17T13:20:47+00:00",
-   "fail_streak": 1,
-   "error": "HTTPError: HTTP Error 503: Service Unavailable"
+   "ok": true,
+   "entries": 23,
+   "new": 8,
+   "last_ok": "2026-11-18T07:24:34+00:00",
+   "fail_streak": 0
   },
   "NVIDIA Technical Blog": {
    "sector": "simulation",
    "url": "https://developer.nvidia.com/blog/feed",
    "ok": true,
    "entries": 100,
-   "new": 2,
-   "last_ok": "2026-11-17T23:29:51+00:00",
+   "new": 0,
+   "last_ok": "2026-11-18T07:24:34+00:00",
    "fail_streak": 0
   },
   "HPCwire": {
@@ -224,65 +215,61 @@
    "ok": true,
    "entries": 10,
    "new": 10,
-   "last_ok": "2026-11-17T23:29:51+00:00",
+   "last_ok": "2026-11-18T07:24:34+00:00",
    "fail_streak": 0
   },
   "GN simulation software": {
    "sector": "simulation",
    "url": "https://news.google.com/rss/search?q=Ansys+OR+COMSOL+OR+%22digital+twin%22+OR+%22Omniverse%22+simulation+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
-   "ok": false,
-   "entries": 0,
-   "new": 0,
-   "last_ok": "2026-11-17T13:20:47+00:00",
-   "fail_streak": 1,
-   "error": "HTTPError: HTTP Error 503: Service Unavailable"
+   "ok": true,
+   "entries": 11,
+   "new": 3,
+   "last_ok": "2026-11-18T07:24:34+00:00",
+   "fail_streak": 0
   },
   "GN ML surrogates": {
    "sector": "simulation",
    "url": "https://news.google.com/rss/search?q=%22surrogate+model%22+OR+%22physics-informed%22+OR+%22neural+operator%22+OR+PhysicsNeMo+OR+%22AI+simulation%22+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
-   "ok": false,
-   "entries": 0,
-   "new": 0,
-   "last_ok": "2026-11-17T13:20:47+00:00",
-   "fail_streak": 1,
-   "error": "HTTPError: HTTP Error 503: Service Unavailable"
+   "ok": true,
+   "entries": 9,
+   "new": 3,
+   "last_ok": "2026-11-18T07:24:34+00:00",
+   "fail_streak": 0
   },
   "IEEE Spectrum": {
    "sector": "hardware",
    "url": "https://spectrum.ieee.org/feeds/feed.rss",
    "ok": true,
    "entries": 30,
-   "new": 2,
-   "last_ok": "2026-11-17T23:29:51+00:00",
+   "new": 0,
+   "last_ok": "2026-11-18T07:24:34+00:00",
    "fail_streak": 0
   },
   "GN lidar sensors": {
    "sector": "hardware",
    "url": "https://news.google.com/rss/search?q=lidar+OR+%22image+sensor%22+OR+%22MEMS+sensor%22+manufacturing+OR+production+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
-   "ok": false,
-   "entries": 0,
-   "new": 0,
-   "last_ok": "2026-11-17T13:20:47+00:00",
-   "fail_streak": 1,
-   "error": "HTTPError: HTTP Error 503: Service Unavailable"
+   "ok": true,
+   "entries": 18,
+   "new": 7,
+   "last_ok": "2026-11-18T07:24:34+00:00",
+   "fail_streak": 0
   },
   "GN actuators humanoid parts": {
    "sector": "hardware",
    "url": "https://news.google.com/rss/search?q=actuator+OR+%22harmonic+reducer%22+OR+%22roller+screw%22+humanoid+OR+robot+supply+chain+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
-   "ok": false,
-   "entries": 0,
-   "new": 0,
-   "last_ok": "2026-11-17T13:20:47+00:00",
-   "fail_streak": 1,
-   "error": "HTTPError: HTTP Error 503: Service Unavailable"
+   "ok": true,
+   "entries": 4,
+   "new": 2,
+   "last_ok": "2026-11-18T07:24:34+00:00",
+   "fail_streak": 0
   },
   "TechCrunch": {
    "sector": "bigtech",
    "url": "https://techcrunch.com/feed/",
    "ok": true,
    "entries": 20,
-   "new": 20,
-   "last_ok": "2026-11-17T23:29:51+00:00",
+   "new": 4,
+   "last_ok": "2026-11-18T07:24:34+00:00",
    "fail_streak": 0
   },
   "The Verge": {
@@ -290,8 +277,8 @@
    "url": "https://www.theverge.com/rss/index.xml",
    "ok": true,
    "entries": 10,
-   "new": 10,
-   "last_ok": "2026-11-17T23:29:51+00:00",
+   "new": 1,
+   "last_ok": "2026-11-18T07:24:34+00:00",
    "fail_streak": 0
   },
   "Ars Technica": {
@@ -299,27 +286,26 @@
    "url": "https://feeds.arstechnica.com/arstechnica/index",
    "ok": true,
    "entries": 20,
-   "new": 11,
-   "last_ok": "2026-11-17T23:29:51+00:00",
+   "new": 1,
+   "last_ok": "2026-11-18T07:24:34+00:00",
    "fail_streak": 0
   },
   "GN big tech": {
    "sector": "bigtech",
    "url": "https://news.google.com/rss/search?q=Apple+OR+Microsoft+OR+Alphabet+OR+Amazon+OR+Meta+OR+Nvidia+earnings+OR+deal+OR+antitrust+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
-   "ok": false,
-   "entries": 0,
-   "new": 0,
-   "last_ok": "2026-11-17T13:20:47+00:00",
-   "fail_streak": 1,
-   "error": "HTTPError: HTTP Error 503: Service Unavailable"
+   "ok": true,
+   "entries": 100,
+   "new": 85,
+   "last_ok": "2026-11-18T07:24:34+00:00",
+   "fail_streak": 0
   },
   "The Robot Report": {
    "sector": "robotics",
    "url": "https://www.therobotreport.com/feed/",
    "ok": true,
    "entries": 15,
-   "new": 2,
-   "last_ok": "2026-11-17T23:29:51+00:00",
+   "new": 1,
+   "last_ok": "2026-11-18T07:24:34+00:00",
    "fail_streak": 0
   },
   "IEEE Spectrum robotics": {
@@ -328,7 +314,7 @@
    "ok": true,
    "entries": 30,
    "new": 0,
-   "last_ok": "2026-11-17T23:29:51+00:00",
+   "last_ok": "2026-11-18T07:24:34+00:00",
    "fail_streak": 0
   },
   "Robohub": {
@@ -337,37 +323,35 @@
    "ok": true,
    "entries": 75,
    "new": 0,
-   "last_ok": "2026-11-17T23:29:51+00:00",
+   "last_ok": "2026-11-18T07:24:34+00:00",
    "fail_streak": 0
   },
   "GN humanoids": {
    "sector": "robotics",
    "url": "https://news.google.com/rss/search?q=humanoid+robot+OR+%22Figure+AI%22+OR+%22Boston+Dynamics%22+OR+%221X%22+OR+Unitree+OR+Optimus+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
-   "ok": false,
-   "entries": 0,
-   "new": 0,
-   "last_ok": "2026-11-17T13:20:47+00:00",
-   "fail_streak": 1,
-   "error": "HTTPError: HTTP Error 503: Service Unavailable"
+   "ok": true,
+   "entries": 100,
+   "new": 60,
+   "last_ok": "2026-11-18T07:24:34+00:00",
+   "fail_streak": 0
   },
   "SpaceNews": {
    "sector": "space",
    "url": "https://spacenews.com/feed/",
    "ok": true,
    "entries": 15,
-   "new": 1,
-   "last_ok": "2026-11-17T23:29:51+00:00",
+   "new": 0,
+   "last_ok": "2026-11-18T07:24:34+00:00",
    "fail_streak": 0
   },
   "NASASpaceflight": {
    "sector": "space",
    "url": "https://www.nasaspaceflight.com/feed/",
-   "ok": false,
-   "entries": 0,
-   "new": 0,
-   "last_ok": "2026-11-17T13:20:47+00:00",
-   "fail_streak": 1,
-   "error": "HTTPError: HTTP Error 403: Forbidden"
+   "ok": true,
+   "entries": 10,
+   "new": 1,
+   "last_ok": "2026-11-18T07:24:34+00:00",
+   "fail_streak": 0
   },
   "Spaceflight Now": {
    "sector": "space",
@@ -375,7 +359,7 @@
    "ok": true,
    "entries": 10,
    "new": 0,
-   "last_ok": "2026-11-17T23:29:51+00:00",
+   "last_ok": "2026-11-18T07:24:34+00:00",
    "fail_streak": 0
   },
   "ESA": {
@@ -385,18 +369,17 @@
    "entries": 0,
    "new": 0,
    "last_ok": "2026-11-04T19:43:59+00:00",
-   "fail_streak": 38,
+   "fail_streak": 39,
    "error": "HTTPError: HTTP Error 404: Not Found"
   },
   "GN launches": {
    "sector": "space",
    "url": "https://news.google.com/rss/search?q=SpaceX+OR+Starship+OR+%22Blue+Origin%22+OR+%22New+Glenn%22+OR+Ariane+OR+ESA+launch+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
-   "ok": false,
-   "entries": 0,
-   "new": 0,
-   "last_ok": "2026-11-17T13:20:47+00:00",
-   "fail_streak": 1,
-   "error": "HTTPError: HTTP Error 503: Service Unavailable"
+   "ok": true,
+   "entries": 100,
+   "new": 37,
+   "last_ok": "2026-11-18T07:24:34+00:00",
+   "fail_streak": 0
   }
  }
 }
